@@ -42,15 +42,19 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  new WOW().init();
-  let wow = new WOW({
-    boxClass: 'wow', // default
-    animateClass: 'animated', // default
-    offset: 0, // default
-    mobile: true, // default
-    live: true // default
-  });
-  wow.init();
+
+  if (screenWidth > 765) {
+    new WOW().init();
+    let wow = new WOW({
+      boxClass: 'wow', // default
+      animateClass: 'animated', // default
+      offset: 0, // default
+      mobile: false, // default
+      live: true // default
+    });
+    wow.init();
+  }
+  
 
 
   function changeWindow () {
