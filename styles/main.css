@@ -459,6 +459,7 @@ ul {
 .app__flex {
   display: flex;
   margin-bottom: 85px;
+  padding-left: 6.5%;
 }
 
 .app__img {
@@ -579,6 +580,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 90px;
+  padding-left: 6.5%;
 }
 
 

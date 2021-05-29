@@ -443,6 +443,11 @@
 
   .app__flex {
     flex-direction: column;
+    padding-left: 0;
+  }
+
+  .app__services {
+    padding-left: 0;
   }
 
   .app__descrip {
