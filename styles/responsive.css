@@ -449,6 +449,9 @@
   .app__services {
     padding-left: 0;
   }
+  .app__text {
+    padding-left: 0;
+  }
 
   .app__descrip {
     width: 100%;

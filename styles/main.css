@@ -602,6 +602,7 @@ ul {
 .app__text {
   display: flex;
   font-size: 14px;
+  padding-left: 6.5%;
 }
 
 .app__text span {
