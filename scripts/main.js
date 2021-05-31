@@ -74,15 +74,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   } 
 
-  window.addEventListener('scroll', function () {
-    let header = document.querySelector('.header');
+  // window.addEventListener('scroll', function () {
+  //   let header = document.querySelector('.header');
     
-    if(window.pageYOffset > 10) {
-      header.classList.add('is-active');
-    }else{
-      header.classList.remove('is-active');
-    }
-  });
+  //   if(window.pageYOffset > 10) {
+  //     header.classList.add('is-active');
+  //   }else{
+  //     header.classList.remove('is-active');
+  //   }
+  // });
 
   window.onresize = function () {
     screenWidth = window.screen.width;
