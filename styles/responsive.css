@@ -125,9 +125,9 @@
     top: -300px;
     left: -140px;
     width: 140px;
-    min-height: 100vh;
+    height: 100px;
     background: none;
-    box-shadow: 40px 40px 600px 50px rgb(234, 0, 61, 0.4);
+    box-shadow: 100px 40px 800px 50px rgb(234, 0, 61, 0.3);
   }
 
 
